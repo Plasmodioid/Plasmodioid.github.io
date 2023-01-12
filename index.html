@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six puzzle hunt</title>
+
+    <style>
+    body {
+      background-color: #180434;
+      /*border:20px solid #713b86;
+    /*border: 10px solid darkcyan*/
+    }
+
+    img.resize {
+      max-width: 17%;
+      max-height: 17%;
+    }
+
+    img.resize2 {
+      max-width: 14%;
+      max-height: 14%;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .c {
+      left:auto;
+      right:auto;
+    }
+
+
+    .p {
+      position:absolute;
+      width:50px;
+      height:50px;
+    }
+
+    .p:hover {
+      width:55px;
+      height:55px;
+    }
+
+    .p_1 {
+      left:290px;
+      top:5px;
+    }
+
+    .p_2 {
+      right:290px;
+      top:5px;
+    }
+
+    .p_3 {
+      left:162px;
+      top:112px;
+    }
+
+    .p_4 {
+      right:162px;
+      top:112px;
+    }
+
+    .p_5 {
+      left:133px;
+      bottom:220px;
+    }
+
+    .p_6 {
+      right:133px;
+      bottom:220px;
+    }
+
+    .p_7 {
+      left:217px;
+      bottom:73px;
+    }
+
+    .p_8 {
+      right:217px;
+      bottom:73px;
+    }
+
+    .p_9 {
+      left:373px;
+      bottom:17px;
+    }
+
+    .p_9:hover {
+      left:371px;
+      bottom:17px;
+    }
+    
+
+    .t {
+      position:absolute;
+      display:none;
+    }
+
+    div {
+      font-size:medium;
+    }
+
+
+    .t_1 {
+      left:165px;
+      top: 16px;
+    }
+
+    .t_2 {
+      right:265px;
+      top: 16px;
+    }
+
+    .t_3 {
+      left:70px;
+      top: 90px;
+    }
+
+    .t_4 {
+      right:30px;
+      top: 126px;
+    }
+
+    .t_5 {
+      left:65px;
+      top: 292px;
+    }
+
+    .t_6 {
+      right:78px;
+      top: 292px;
+    }
+
+    .t_7 {
+      left:109px;
+      bottom: 93px;
+    }
+
+    .t_8 {
+      right:121px;
+      bottom: 93px;
+    }
+
+    .t_9 {
+      left:368px;
+      bottom:3px;
+    }
+
+
+    a:hover + .t_1 {
+      display:block;
+    }
+
+    a:hover + .t_2 {
+      display:block;
+    }
+
+    a:hover + .t_3 {
+      display:block;
+    }
+
+    a:hover + .t_4 {
+      display:block;
+    }
+
+    a:hover + .t_5 {
+      display:block;
+    }
+
+    a:hover + .t_6 {
+      display:block;
+    }
+
+    a:hover + .t_7 {
+      display:block;
+    }
+
+    a:hover + .t_8 {
+      display:block;
+    }
+
+    a:hover + .t_9 {
+      display:block;
+    }
+
+    </style>
+
+    <img class="center" style="width:200px; height:105px; margin-top:10px;" src="assets/six.png"></img>
+    <img class="center" style="width:170px; height:33px;" src="assets/the musicaln't.png"></img>
+    <img class="center" style="width:170px; height:30px;" src="assets/puzzle hunt.png"></img>
+  </head>
+  <body>
+    <div class="center" style="position:relative; width:800px; height:550px; margin-top:20px;">
+      <img style="position:absolute; left:150px; top:20px; width:500px; height:500px;" src="assets/colorful_nonagon.png"></img>
+      <a href="megasix.html"><img style="position:absolute; left:289px; top:170px; width:220px; height:130px;" src="assets/tudor crown.png"></img></a>
+
+      <a href="all_you_wanna_do.html">
+        <img class="p p_1" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_1" style="color:pink">All You Wanna Do</div>
+      <a href="six.html">
+        <img class="p p_2" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_2" style="color:pink">Six</div>
+      <a href="">
+        <img class="p p_3" src="assets/rain.png"></img>
+      </a>
+      <a href="dont_lose_ur_head.html">
+        <img class="p p_4" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_4" style="color:pink">Don't Lose Ur Head</div>
+      <a href="get_down.html">
+        <img class="p p_5" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_5" style="color:pink">Get Down</div>
+      <a href="no_way.html">
+        <img class="p p_6" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_6" style="color:pink">No Way</div>
+      <a href="haus_of_holbein.html">
+        <img class="p p_7" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_7" style="color:pink">Haus of Holbein</div>
+      <a href="heart_of_stone.html">
+        <img class="p p_8" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_8" style="color:pink">Heart of Stone</div>
+      <a href="ex-wives.html">
+        <img class="p p_9" src="assets/rain.png"></img>
+      </a>
+      <div class="t t_9" style="color:pink">Ex-wives</div>
+    </div>
+
+    
+  </body>
+</html>
